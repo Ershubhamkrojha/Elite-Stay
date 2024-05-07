@@ -1,0 +1,22 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.footer {
+  width: 100%;
+  width: 1024;
+  font-size: 12px;
+}
+.fList>li{
+  list-style: none;
+  cursor: pointer;
+}
+
+.fLists {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+
+}

@@ -1,0 +1,22 @@
+.homeContainer{
+    margin-top: 50px;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+  .homeTitle{
+    width: 1024px;
+    font-size: 20px;
+    
+  }
+  .HomeDiv{
+    background-color: lightblue;
+    min-width: 100dvw;
+  }
+  @media screen and (max-Width:940px) {
+    .HomeDiv{
+      background-color: red;
+      min-width: 142dvw;
+  }
+}
